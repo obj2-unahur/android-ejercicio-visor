@@ -10,6 +10,7 @@ El resultado final será algo así:
 
 Una vez finalizada la primer clase del taller, proponemos realizar las siguientes modificaciones a modo de práctica:
 
+- Dejar el listado andando y que se vea como en la foto
 - Agregar una spinner (en Android, `ProgressBar`) para indicar que la aplicación está cargando. Recordar que las `View` tienen un método de extensión `isVisible` para mostrar u ocultarlas.
 - Por defecto, la API nos entrega las monedas ordenadas por capitalización de mercado. Agregarle comportamiento al botón para que las reordene alfabéticamente. Para esto, se pueden guardar una instancia del `adapter` e invocar al método `populate(...)` con la lista ordenada como único argumento.
 - Agregar un `ToggleButton` que solo muestre las monedas estables (cuya variación de precio sea menor al 1%)
