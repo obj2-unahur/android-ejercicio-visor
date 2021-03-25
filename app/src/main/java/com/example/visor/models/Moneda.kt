@@ -17,6 +17,6 @@ data class Moneda(
     @SerializedName("price_change_percentage_24h")
     val variacionEn24hs: Double = 0.0,
 
-    @SerializedName("marked_cap_rank")
+    @SerializedName("market_cap_rank")
     val ranking: Int = 0
 )
